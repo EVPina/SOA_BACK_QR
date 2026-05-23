@@ -1,9 +1,9 @@
-package com.donbelisario.menudigital.service;
+package com.donbelisario.menudigital.servicios;
 
 import com.donbelisario.menudigital.model.CategoriaMenu;
 import com.donbelisario.menudigital.model.MenuQr;
-import com.donbelisario.menudigital.repository.CategoriaMenuRepository;
-import com.donbelisario.menudigital.repository.MenuQrRepository;
+import com.donbelisario.menudigital.repositorio.CategoriaMenuRepository;
+import com.donbelisario.menudigital.repositorio.MenuQrRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

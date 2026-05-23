@@ -2,7 +2,7 @@ package com.donbelisario.menudigital.controller;
 
 import com.donbelisario.menudigital.model.CategoriaMenu;
 import com.donbelisario.menudigital.model.MenuQr;
-import com.donbelisario.menudigital.service.MenuService;
+import com.donbelisario.menudigital.servicios.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

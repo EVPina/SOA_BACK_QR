@@ -1,4 +1,4 @@
-package com.donbelisario.menudigital.repository;
+package com.donbelisario.menudigital.repositorio;
 
 import com.donbelisario.menudigital.model.MenuQr;
 import org.springframework.data.jpa.repository.JpaRepository;
