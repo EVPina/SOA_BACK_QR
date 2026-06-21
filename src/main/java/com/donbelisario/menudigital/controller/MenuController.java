@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/menu")
+@RequestMapping("api/v1/menu")
 @CrossOrigin(origins = "*")
 public class MenuController {
     
