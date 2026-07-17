@@ -30,7 +30,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping("api/v1/menu")
 @Tag(name = "Menu Digital", description = "API para revisar menu ditital")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "${app.frontend-url:http://localhost:4200}")
 public class MenuController {
 
     private static final int QR_SIZE = 300;
